@@ -3,8 +3,8 @@ Contributors: mirceatm
 Donate link: https://paypal.me/mirceatm
 Tags: contact, form, library, file, upload
 Requires at least: 4.9
-Tested up to: 6.5.4
-Stable tag: 1.2.3
+Tested up to: 6.9.4
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,7 +94,31 @@ After that check Media Library for uploaded files.
 
 1. screenshot-1.jpg
 
+== Pro Version ==
+
+Need more? The **Pro version** adds 13 features:
+
+* Per-form control — choose which forms save files, set custom folder and rename pattern per form
+* Auto-rename — rename files using patterns like `{name}-{date}.{ext}` from other CF7 fields
+* Unique filenames — automatically avoid overwriting files with the same name
+* Custom upload folder — save files to a specific subfolder per form
+* File URL in email — replace `[file]` mail tag with a clickable link instead of an attachment
+* Skip-mail compatibility — save files even when CF7's `skip_mail: on` is set
+* Upload log — admin screen listing every uploaded file with form, date, size, and download link
+* Private files — store files outside the Media Library with access protection
+* Admin notification — receive an email with file link on every upload
+* Flamingo integration — link uploaded files to Flamingo inbound message entries
+* Auto-delete — remove uploads older than a configurable number of days
+* Image resize / compress — resize and compress images on upload
+* Duplicate detection — skip saving if the same file was already uploaded (MD5 check)
+
+[Get Pro &rarr;](https://namir.ro/downloads/store-file-uploads-for-contact-form-7-pro/)
+
 == Changelog ==
+
+= 1.3.0 =
+
+* Added Pro upsell admin page (Settings > Store CF7 Uploads) showing locked Pro features
 
 = 1.2.3 =
 
